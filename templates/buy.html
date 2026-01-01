@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %}Buy Now{% endblock %}
+
+{% block content %}
+<div class="text-center">
+  <h2>Scan to Pay</h2>
+  <p>Total Amount: <strong>₹{{ total }}</strong></p>
+
+  <img src="{% static 'qr.png' %}" width="250" class="my-3">
+
+  <p class="text-muted">Scan this QR code using any UPI app to complete payment.</p>
+  <a href="/" class="btn btn-dark mt-3">Continue Shopping</a>
+</div>
+{% endblock %}
