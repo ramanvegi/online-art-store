@@ -3,6 +3,9 @@
 A modern, full-stack Online Art Supply Store built with Django, designed to deliver a smooth and secure e-commerce experience for art materials.
 
 
+---
+
+
 ## 🚀 Overview
 
 ArtStore is a full-stack web application that allows users to browse, add, and purchase art supplies such as paint brushes, canvas boards, and acrylic paints.
@@ -11,54 +14,61 @@ It features secure authentication, cart management, and a QR-based checkout flow
 📌 This project is built as a case study to showcase full-stack development using Python Django with a responsive frontend.
 
 
+---
+
 
 ## ✨ Key Features
 
-🔐 User Registration & Login (Django Authentication)
+- 🔐 User Registration & Login (Django Authentication)
 
-🛍️ Browse Art Products
+- 🛍️ Browse Art Products
 
-➕ Add / ❌ Remove items from Shopping Cart
+- ➕ Add / ❌ Remove items from Shopping Cart
 
-🧾 Session-based Cart Management
+- 🧾 Session-based Cart Management
 
-💳 Buy Now with QR Code Payment
+- 💳 Buy Now with QR Code Payment
 
-🎨 Clean & Responsive UI
+- 🎨 Clean & Responsive UI
 
-🛠️ Admin Panel for Product Management
+- 🛠️ Admin Panel for Product Management
 
 
+---
 
 
 ## 🧰 Tech Stack
 ### Backend : 
 
-Python
+- Python
 
-Django
+- Django
 
-SQLite (easily upgradeable to MySQL)
+- SQLite (easily upgradeable to MySQL)
 
 ### Frontend : 
 
-HTML
+- HTML
 
-CSS
+- CSS
 
 ### Other Tools : 
 
-QR Code Generation (qrcode, Pillow)
+- QR Code Generation (qrcode, Pillow)
 
-Git & GitHub
-
-
+- Git & GitHub
 
 
-🖼️ Preview
+
+---
+
+
+## 🖼️ Preview
 
 ![alt text](image.png)
 
+
+---
 
 
 ## 📁 Project Structure
